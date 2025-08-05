@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey Rihen here</title>
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+     <link rel="icon" href="./favicon.jpeg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emailjs/4.4.1/email.min.js">
+   
+  </head>
+
+  <body>
+    
+    <nav class="main-navbar navbar-expand-lg bg-body-tertiary">
+      <div class="navbar container-fluid">
+        <a
+          class="rihen navbar-brand"
+          href="#"
+          style="font-family: 'Poppins', sans-serif ; "
+          >Rihen <span class="krishna" style="text-shadow: 0 0 2px #00abf0, 0 0 1px #00abf0, 0 0 30px #00abf0" >krishna .</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          
+        >
+          <i class="fa-solid fa-bars-staggered" style="color: #00abf0;" font-size: 25px;></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+ 
+
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+ <!-- -------------------------------------navbar------------------------------- -->
+    
+    <div class="banner">
+     
+      <div class="left ">
+        <h1 class="typewriter" style="font-family: 'Poppins', sans-serif; font-size: 60px;font-weight: 600;">
+          Hi, I'm <span class="softwared">Rihen</span>
+        </h1>
+        <h4 class="typewriter2" style="font-family: 'Poppins', sans-serif;  font-size: 30px;font-weight: 600;">
+          I'm a <span class="softwared">Software Developer</span>
+        </h4>
+        <br />
+        <p style="font-family: 'Poppins', sans-serif">
+          I'm a passionate software developer who enjoys building web and mobile
+          apps. <br />
+          I specialize in JavaScript, React. <br />
+          I like turning ideas into fast, clean, and user-friendly software.
+        </p>
+
+        <div class="icon">
+          <a href="www.linkedin.com/in/rihenkrishna"><i class="fa-brands fa-square-linkedin" style="color: #00abf0"></i></a>
+          <a href="https://www.instagram.com/riihennn?igsh=MWlwN2xkNnh4bzN2aQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram" style="color: #00abf0"></i></a>
+          <i class="fa-brands fa-square-github" style="color: #00abf0"></i>
+          <i class="fa-brands fa-square-twitter" style="color: #00abf0"></i>
+        </div>
+        <br />
+
+        <div class="but10">
+          <button type="button" class="btn btn-outline-info">
+            &nbsp;Hire&nbsp;
+          </button>
+
+          <a href="#contact"><button type="button" class="btn btn-outline-info">Contact</button></a>
+        </div>
+      </div>
+      
+      <div class="right">
+        <!-- <img src="./rihenpic.png" alt="" /> -->
+        <img src="./rihenoffice1.jpg" style="border-radius: 1000px;" width="50px" alt="">
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------banner-------------------------------------- -->
+
+    <div class="aboutme" id="aboutme">
+      <img src="./rihenoffice2.jpg" width="200px" alt="" />
+
+      <div class="aboutmecontent">
+        <h1>About<span class="krishna">&nbsp;Me</span></h1>
+        <br />
+        <p style="font-family: 'Poppins', sans-serif; font-size: 15px">
+          I'm a passionate MERN stack developer with a love for building
+          full-stack web applications that are fast, responsive, and scalable. I
+          work with MongoDB, Express.js, React, and Node.js to bring powerful
+          ideas to life through clean and maintainable code. <br /><br />
+          I enjoy working across the stack—from designing sleek frontend
+          interfaces in React to developing secure, efficient backends with Node
+          and Express. My focus is always on writing reusable components,
+          optimizing performance, and building seamless user experiences.
+          <br /><br />
+          I'm constantly exploring new technologies, frameworks, and best
+          practices to stay ahead in the fast-moving web development world. I
+          thrive in team environments but also enjoy taking ownership of
+          individual projects.
+        </p>
+        <div class="jssec">
+         
+          <ul>
+            <li>
+              <button onclick="skill()">Skill</button>
+            </li>
+            <li>
+              <button onclick="experience()">Experience</button>
+            </li>
+            <li>
+              <button onclick="education()">Education</button>
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div id="skillcon" style="display: block">
+          <i class="fa-brands fa-html5" style="color: #00abf0"></i>
+          <i class="fa-brands fa-css3" style="color: #00abf0"></i>
+          <i class="fa-brands fa-square-js" style="color: #00abf0"></i>
+          <br />
+          <br />
+          <p><span class="aboutcolour">Web</span><br />Mern Stack</p>
+          <p>
+            <span class="aboutcolour">Frontend</span><br />HTML, CSS, React,
+            JavaScript
+          </p>
+          <p><span class="aboutcolour">Backend</span><br />Mern Stack</p>
+        </div>
+        <div id="experianscon" style="display: none">
+          <p>
+            <span class="aboutcolour">2025</span><br />Intern at Bridgeon
+            Solutions
+          </p>
+          <p>
+            <span class="aboutcolour">2025</span><br />Worked on various
+            personal projects
+          </p>
+        </div>
+        <div id="educationcon" style="display: none">
+          <p>
+            <span class="aboutcolour">2022-2023</span><br />GOVERMENT VOCATIONAL
+            HIGHER SECONDARY SCHOOL (GVHSS) KOYILANDY (10th) <br />Percentage :
+            84
+          </p>
+          <p>
+            <span class="aboutcolour">2023-2025</span><br />GOVERMENT VOCATIONAL
+            HIGHER SECONDARY SCHOOL (GVHSS) KOYILANDY (+2) <br />Course : VHSE
+            TTI (Telecom Technician and IoT (Internet of Things) )
+            <br />Percentage : 84
+          </p>
+          <p>
+            <span class="aboutcolour">2025</span><br />Web Developing (Mern
+            Stack)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------------------aboutme-------------------------------->
+
+    <div class="experience-heading" id="experience">
+      <h1 style="font-family: 'Poppins', sans-serif">
+        Experi <span class="krishna">ence</span>
+      </h1>
+    </div>
+
+    <div class="experience col-sm-6" >
+      <div class="cardex card">
+        <div class="card-body">
+          <br />
+          <div class="card-heading">
+            <img
+              src="./bridgeon.jpeg"
+              style="border-radius: 10px; width: 50px; height: 50px"
+              alt=""
+            />
+
+            <div class="cardtext">
+              <h5 class="card-title" style="color: rgb(255, 255, 255);">MERN Stack Developer Intern</h5>
+              <h6 class="card-title" style="color: rgb(255, 255, 255);">Bridgeon Solutions</h6>
+            </div>
+          </div>
+          <br />
+          <p class="card-text">
+            <br>
+           July 2025 – Present
+
+Currently working as a Web Development Intern, gaining practical experience in front-end and back-end technologies.
+<br>
+Building responsive user interfaces using HTML, CSS, Bootstrap, and JavaScript.
+<br>
+Collaborating with the development team to support real-world projects and client requirements.
+<br>
+Actively learning and contributing to tasks involving code optimization, bug fixing, and deployment practices.
+<br>
+Enhancing skills in teamwork, version control (Git), and industry-standard workflows.
+<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="vline">
+        <div class="vertical-line mx-auto">
+          <img
+            src="./bridgeon.jpeg"
+            style="border-radius: 40px; width: 65px; height: 65px"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------experience-------------------------------------- -->
+
+
+    <div class="skillh1" id="skill">
+      <h1 style="font-family: 'Poppins', sans-serif">
+        Ski<span class="krishna">lls</span>
+      </h1>
+    </div>
+
+    <div class="skill">
+      <div class="skill-line">
+        <div class="skillleft">
+          <div class="cardleft cardskill card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="krishna" style="font-size: 30px; font-weight: 800;">Frontend Skill</span>
+              </h5>
+              <p class="card-text">
+                <br />
+                I have hands-on experience in crafting engaging user interfaces
+                using modern frontend technologies:
+                <br /><br />
+                HTML5, CSS3, and Bootstrap
+                <br /><br />
+                JavaScript (ES6+)
+                <br /><br />
+                React.js & JSX
+                <br /><br />
+                Responsive Web Design
+                <br /><br />
+                UI/UX principles
+              </p>
+            </div>
+          </div>
+
+          <div class="cardleft cardskill card">
+            <div class="card-body">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="krishna" style="font-size: 30px; font-weight: 800;" >Backend Skill</span>
+                </h5>
+                <p class="card-text">
+                  <br>
+                  My backend development is focused on scalable and secure
+                  solutions using:
+                  <br /><br />
+                  Node.js & Express.js
+                  <br /><br />
+                  MongoDB (NoSQL Database)
+                  <br /><br />
+                  RESTful APIs
+                  <br /><br />
+                  User Authentication (JWT)
+                  <br /><br />
+                  CRUD Operations and Routing
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-time-line">
+          <div class="line-icon">
+            <i class="fa-brands fa-slack" style="color: #00abf0"></i>
+            <i class="fa-brands fa-slack" style="color: #00abf0"></i>
+            <i class="fa-brands fa-slack" style="color: #00abf0"></i>
+          </div>
+        </div>
+
+        <div class="skillright">
+          <div class="cardright cardskill card">
+            <div class="card-body">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="krishna" style="font-size: 30px; font-weight: 800;">Tools & Others</span>
+                </h5>
+                <p class="card-text">
+                  <br />
+                  I also work efficiently with the following tools and
+                  technologies:
+                  <br /><br />
+                  Git & GitHub
+                  <br /><br />
+                  Postman
+                  <br /><br />
+                  Visual Studio Code
+                  <br /><br />
+                  Deployment (Vercel, Netlify, Render)
+                  <br /><br />
+                  Team collaboration & problem-solving
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------skills------------------------------- -->
+
+
+
+     <section class="projects-section">
+        <div class="container" id="projects">
+         
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Proje<span class="krishna">cts</span></h2>
+                  
+                </div>
+                
+            </div>
+
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-image-icon">
+                              <img src="./easemytrip.png" width="450px" height="250px" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="project-title">EaseMyTrip</h3>
+                            <p class="project-description">
+                                I built a responsive clone of the EaseMyTrip website using HTML,
+            CSS, and JavaScript. The layout was designed using both Flexbox and
+            CSS Grid for clean and adaptive structure. The site includes
+            multiple interactive offer cards, showcasing travel deals and
+            promotions. This project helped me practice real-world UI design,
+            responsive layout techniques, and DOM interaction for dynamic
+            content.
+                            </p>
+                           
+                            <div class="d-flex flex-wrap">
+                                 <a href="#" class="project-link">
+                                    <i class="bi bi-globe"></i> Visit Site
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-image-icon">
+                              <img src="./w3 .png" width="450px" height="250px" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="project-title">W3-School Navbar</h3>
+                            <p class="project-description">
+                               This project demonstrates a responsive navigation bar built using
+            W3.CSS along with HTML and minimal custom CSS. The navbar includes
+            links to different sections of a website (such as Home, About,
+            Services, Contact), and is designed to be clean, mobile-friendly,
+            and easily customizable. The W3.CSS framework simplifies the process
+            by offering built-in classes for layout, spacing, responsiveness,
+            and styling. The navbar automatically adjusts its layout on smaller
+            screens and can be enhanced further with dropdowns or collapsible
+            menus.
+                            </p>
+                           
+                            <div class="d-flex flex-wrap">
+                                  <a href="#" class="project-link">
+                                    <i class="bi bi-globe"></i> Visit Site
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="shining-effect project-card">
+                        <div class="project-image">
+                            <div class="project-image-icon">
+                              <img src="./ubereats.png" width="420px" height="250px" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h3 class="project-title">UberEats</h3>
+                            <p class="project-description">
+                                I developed a fully structured Uber Eats clone from top to bottom
+            using HTML, CSS, and JavaScript. The project replicates key sections
+            like the homepage, search bar, food categories, restaurant listings,
+            and promotional banners. I implemented responsive layouts using
+            Flexbox and Grid, and used iframes to embed interactive maps for
+            location-based services. This project strengthened my front-end
+            development skills and gave me hands-on experience in building
+            real-world UI components and dynamic content with JavaScript.
+                            </p>
+                           
+                            <div class="d-flex flex-wrap">
+                                <a href="#" class="project-link">
+                                    <i class="bi bi-globe"></i> Visit Site
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+        </div>
+    </section>
+
+
+
+
+    <!-- ----------------------------project--------------------------------------- -->
+
+
+
+ <section class="contact-section">
+        <div class="contact-container" id="contact">
+            <h2 class="contact-title" style="font-family: 'Poppins', sans-serif;font-weight: 900; font-size: 50px; ">Contacts <span class="krishna">Me</span></h2>
+            <p class="contact-subtitle">Let's work together on your next project</p>
+            
+            <div class="contact-form">
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="e7b45a39-41cc-4391-a472-c63486414627">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                     <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+                        </div>
+                    <button type="submit" class="submit-btn" onclick="sendmail()">Send Message</button>
+                </form>
+            </div>
+
+
+             <div class="footer-bottom">
+                <p>&copy; 2025 Rihen Krishna. All rights reserved.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- -----------------------------------------contact----------------------------------- -->
+
+
+<    <script src="https://cdnjs.cloudflare.com/ajax/libs/emailjs-com/3.2.0/email.min.js"></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./portfolio.js"></script>
+  </body>
+</html> 
