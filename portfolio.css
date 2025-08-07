@@ -752,6 +752,7 @@ animation: slideFromRight 1s ease-out;
 
             .rihen {
                 padding-left: 0 !important;
+               
             }
 
             .navbar-nav {
@@ -776,6 +777,8 @@ animation: slideFromRight 1s ease-out;
 
             .banner .left {
                 margin-left: 0;
+               padding-left: 60px;
+               padding-right: 60px;
                   
             }
             
@@ -794,6 +797,8 @@ animation: slideFromRight 1s ease-out;
             .aboutme img {
                 margin-bottom: 2rem;
                 margin-top: 80px;
+                width: 350px;
+                height: 500px;
                
             }
 
@@ -817,11 +822,7 @@ animation: slideFromRight 1s ease-out;
             }
 
             .cardex {
-            
-                width: 90% !important;
-               
-               
-               
+                width: 90% !important;   
             }
 
             .vline {
@@ -865,9 +866,7 @@ animation: slideFromRight 1s ease-out;
             .banner .right img {
                 width: 320px;
                 height: 320px;
-                margin-right: 80px;
-               
-                
+                margin-right: 80px; 
             }
 
             .but10 button {
