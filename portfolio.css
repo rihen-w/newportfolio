@@ -818,7 +818,7 @@ animation: slideFromRight 1s ease-out;
 
             .cardex {
             
-                width: 100% !important;
+                width: 90% !important;
                
                
                
@@ -863,15 +863,15 @@ animation: slideFromRight 1s ease-out;
 
         @media(max-width: 576px) {
             .banner .right img {
-                width: 400px;
-                height: 400px;
+                width: 320px;
+                height: 320px;
                 margin-right: 80px;
                
                 
             }
 
             .but10 button {
-                width: 100%;
+                width: 90%;
                 margin-bottom: 0.5rem;
             }
 
